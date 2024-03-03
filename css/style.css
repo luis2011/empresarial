@@ -1,0 +1,164 @@
+
+*{
+   padding: 0;
+   margin: 0;
+}
+
+.asociados{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   flex-wrap: wrap;   
+}
+.box-asociados{
+   width:50%;
+   text-align: center;
+   margin-top: 5px;
+   margin-top: 10px;
+}
+.box-item p{
+   width:50%;
+   margin-left: 25%;
+
+}
+
+.noticias{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   
+}
+.box-noticias{
+   display: flex;
+   justify-content:center;
+   width:33%;
+   text-align: center;
+   margin-top: 5px;
+   margin-top: 20px;
+}
+
+
+main{
+   padding-top: 100px;
+}
+h2{
+   background-color: #53537a;
+}
+
+section{
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+.section-color{
+   background-color: #c8c8c8;
+}
+
+.titulo{
+   text-align: center;
+}
+
+.carousel-item img{
+      height: 600px;
+}
+
+
+.navbar-brand img{
+   width: auto;
+   height:3rem;
+   
+}
+
+.contacto{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   
+}
+.contacto-item{
+   width:50%
+   
+}
+
+
+.foot{
+   text-align: center;
+  /* background-color: #53537a;
+   color: white; */
+}
+.sociales{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   height: 50px;
+   background-color: #53537a;
+}
+.sociales div{
+   margin: 10px;
+}
+.sociales-menu{
+   display: flex;
+   flex-direction: row;
+   justify-content: start;
+   height: 50px;
+}
+.sociales-menu div{
+   margin: 10px;
+}
+.fa-brands{
+   color: white;
+}
+
+@media (max-width: 576px) { 
+    
+     /* .navbar-brand{
+        font-size: 0.8rem;
+        font-weight: bold;
+    } */
+    .navbar-brand img{
+      width: auto;
+      height:3.5rem;
+   }
+   .titulo{
+      font-size: 0.8rem;
+      font-weight: bold;
+   }
+   .carousel-item img{
+      height: auto;
+   }
+   .asociados{
+      flex-direction: column;
+      align-items: center;   
+   }
+
+   .box-asociados{
+      width:auto;
+      text-align: center;
+   }
+   .box-noticias{
+      width:auto;
+      text-align: center;
+   }
+   .box-item p{
+      width:auto;
+      margin-left: 0px;
+   
+   }
+   .contacto{
+      flex-direction: column;     
+   }
+   .contacto-item{
+      width:100%;
+   }
+   .contacto-item iframe{
+      width:100%;
+   }
+   h2{
+      font-size: 1rem;
+      font-weight: bold;
+      text-align: center;
+   }
+   
+
+ }
+
